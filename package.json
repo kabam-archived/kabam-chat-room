@@ -4,7 +4,9 @@
   "description": "mwc chat room",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "./node_modules/.bin/grunt test",
+    "blanket": { "pattern": ["index.js", "models/**/*.js", "public/**/*.js", "routes/**/*.js"] }
   },
   "engines": {
     "node": "0.10.x",
@@ -20,7 +22,19 @@
     "url": "https://github.com/mywebclass/mwc_chat_room/issues"
   },
   "dependencies": {
-    "mwc_kernel": "git+https://github.com/mywebclass/mwc_kernel.git#master",
-    "mwc_plugin_socket_io":"git+https://github.com/mywebclass/mwc_plugin_socket_io.git"
+    "mwc_kernel": "git://github.com/mywebclass/mwc_kernel.git#master",
+    "mwc_plugin_socket_io":"git://github.com/mywebclass/mwc_plugin_socket_io.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-cli": "*",
+    "grunt-contrib-watch": "~0.5.0",
+    "grunt-contrib-jshint": "~0.6.0",
+    "should": "~1.2.2",
+    "mocha": "~1.12.0",
+    "grunt-mocha-cov": "0.0.7",
+    "blanket": "~1.1.5",
+    "request":"*",
+    "async":"*"
   }
 }

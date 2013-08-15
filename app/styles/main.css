@@ -1,0 +1,53 @@
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+    padding-top: 70px;
+}
+
+.hero-unit {
+    margin: 50px auto 0 auto;
+    width: 300px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    background-color: #eee;
+    border-radius: 6px;
+    padding: 60px;
+}
+
+.hero-unit h1 {
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+/* app css stylesheet */
+
+.overflowable {
+  height: 400px;
+}
+
+.well.message-spot{
+  margin-bottom: 50px;
+  height: 400px;
+  overflow: auto;
+}
+
+.bar-submit-message{
+  border-top: 1px solid #33b5e5;
+}
+
+.form-send-message {
+  margin-top: 20px
+}
+
+.overflowable p {
+  margin: 0;
+}
+
+
+p.active{
+  background: #FFF;
+  color: #000;
+}

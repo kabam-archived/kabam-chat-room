@@ -1,17 +1,11 @@
-mwc_meta
-========
+mwc_chat_room
+===================
 
-Meta repository to do unit and integration tests on all parts of [mwc_core](https://github.com/mywebclass/mwc_core) 
-application.
+[![Build Status](https://travis-ci.org/mywebclass/mwc_plugin_example.png)](https://travis-ci.org/mywebclass/mwc_plugin_example)
 
-[![Build Status](https://travis-ci.org/mywebclass/mwc_meta.png)](https://travis-ci.org/mywebclass/mwc_meta)
+Developer Note
+==============
 
-Plugins being tested
+Run chat with:
 
-- [mwc_plugin_example](https://github.com/mywebclass/mwc_plugin_example) demonstration plugin 
-
-- [mwc_plugin_spine](https://github.com/mywebclass/mwc_plugin_spine) [![Build Status](https://travis-ci.org/mywebclass/mwc_plugin_spine.png)](https://travis-ci.org/mywebclass/mwc_plugin_spine) plugint that add task queue for application, based on  [Assemblage](https://github.com/pipedrive/assemblage) node module.
-
-- [mwc_plugin_hogan_express](https://github.com/mywebclass/mwc_plugin_hogan_express) [![Build Status](https://travis-ci.org/mywebclass/mwc_plugin_hogan_express.png?branch=master)](https://travis-ci.org/mywebclass/mwc_plugin_hogan_express) - plugin to add support for [hogan-express template engine](https://github.com/vol4ok/hogan-express).
-
-[Plugin compatibility wiki](https://github.com/mywebclass/mwc_core/wiki/Plugin-compatibility-guide)
+once you start the server within mwc_chat_room you should go to http://localhost:3000/#!/chat

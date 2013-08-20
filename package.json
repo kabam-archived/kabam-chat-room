@@ -2,7 +2,7 @@
   "name": "mwc-chat-room",
   "version": "0.0.0",
   "dependencies": {
-    "mwc_kernel": "git+https://github.com/mywebclass/mwc_kernel.git#master",
+    "kabam-kernel": "git://github.com/mykabam/kabam-kernel.git",
     "mwc_plugin_socket_io":"git+https://github.com/mywebclass/mwc_plugin_socket_io.git",
     "mwc_plugin_chat":"git+https://github.com/mywebclass/mwc_plugin_chat.git",
     "grunt-karma": "~0.6.1",

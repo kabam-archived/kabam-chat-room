@@ -9,3 +9,6 @@ Developer Note
 Run chat with:
 
 once you start the server within mwc_chat_room you should go to http://localhost:3000/#!/chat
+
+Deploy Chat app to linode:
+Just run ./deploy linode from command line.

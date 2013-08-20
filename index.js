@@ -1,4 +1,4 @@
-var mwcKernel       = require('mwc_kernel')
+var mwcKernel       = require('kabam-kernel')
   , pluginSocketIo  = require('mwc_plugin_socket_io')
   , pluginChat      = require('mwc_plugin_chat')
   , express         = require('express')

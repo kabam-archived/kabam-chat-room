@@ -14,4 +14,4 @@ mwc.extendMiddleware(function(core){
   return express.static(path.join(__dirname, 'app'));
 });
 mwc.start('app');//prepare application
-mwc.mwc_sio.listenWithSocketIo(process.env.PORT || 3000);
+mwc.mwc_sio.listenWithSocketIo(process.env.PORT || 80);
